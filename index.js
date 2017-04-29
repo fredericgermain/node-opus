@@ -18,6 +18,7 @@ if( oggPacket ) {
 
     exports.Encoder = require( './lib/Encoder' );
     exports.Decoder = require( './lib/Decoder' );
+    exports.StreamConverter = require( './lib/StreamConverter' );
 
 } else {
 
@@ -29,4 +30,3 @@ if( oggPacket ) {
                 "Install ogg-packet package to use the Encoder and Decoder" );
     } ;
 }
-
